@@ -1,0 +1,38 @@
+<template name="contact">
+<div class="ui contact">
+
+	<h1>Contact</h1>
+	<div class="ui segment form">
+		<form>
+		<div class="field">
+			
+				<label for="contactName">Name:</label>
+			
+			<div class="ui left labeled icon input">
+				<input type="text" id="contactName">
+			</div>
+		</div>
+		<div class="two wide column">
+			<div class="column">
+				<label for="contactEmail">Email:</label>
+			</div>
+			<div class="column">
+				<input type="email" id="contactEmail">
+			</div>
+		</div>
+		<div class="two wide column">
+			<div class="column">
+				<label for="contactMsg">Message:</label>
+			</div>
+			<div class="column">
+				<textarea id="contactMsg"></textarea>
+			</div>
+		</div>
+		<div class="twelve wide column">
+			<button type="submit" class="ui button hover green">Send</button>
+		</div>
+		</form>
+	</div>
+</div>
+  {{> footer}}
+</template>
